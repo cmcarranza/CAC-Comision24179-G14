@@ -1,0 +1,34 @@
+/* ( * )selector universal --> Se aplica a todos los elementos de mi archivo */
+
+* {
+    margin:0;
+    padding: 0;
+  }
+  
+  /* Selector de etiqueta --> todos los h2 van a tener esas caracteristicas */
+  
+  h2 {
+    color:white;
+    font-size:20px;
+  }
+  
+  
+  /* Conflicto */
+  #banner {
+      background-color:greenyellow ;
+  }
+  
+  
+  /* Selector de clase */
+  .muestra {
+      background-color: bisque!important;
+  }
+  
+  /* Selector de ID */
+  #search {
+      background-color: aquamarine;
+  }
+  
+  
+  
+  
