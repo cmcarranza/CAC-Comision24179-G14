@@ -1,34 +1,100 @@
-/* ( * )selector universal --> Se aplica a todos los elementos de mi archivo */
+/* este estilo es para index.html */
 
-* {
-    margin:0;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
     padding: 0;
-  }
-  
-  /* Selector de etiqueta --> todos los h2 van a tener esas caracteristicas */
-  
-  h2 {
-    color:white;
-    font-size:20px;
-  }
-  
-  
-  /* Conflicto */
-  #banner {
-      background-color:greenyellow ;
-  }
-  
-  
-  /* Selector de clase */
-  .muestra {
-      background-color: bisque!important;
-  }
-  
-  /* Selector de ID */
-  #search {
-      background-color: aquamarine;
-  }
-  
-  
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header-inicio {
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+
+
+#inicio {
+    
+    color:#fff;
+    margin-left: auto;
+    margin-right: 20px;
+
+}
+
+#inicio a {
+    color:#fff;
+    text-decoration: none;
+}
+
+ /* Cambia el color del enlace visitado a blanco */
+#inicio a:visited {
+    color:#fff;
+}
+#inicio a:hover {
+    text-decoration: underline;
+}
+
+
+/* ver porque no muestra, pero si muestra directamente en el index si se lo escribo 25-5-2024*/
+#menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(29, 6, 6);
+    background-image: url('../img/fondo_rock.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+/* PIE DE PAGINA*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer section {
+    margin: 5px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
   
   
