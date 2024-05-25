@@ -7,9 +7,30 @@ html, body {
     flex-direction: column;
 }
 
+nav  {
+    Font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
 body {
     color: #fff;
     font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+h1, li {
+    font-family: "Rock Salt", cursive;
+    font-weight: 600;
+    font-style: normal;
 }
 
 header {
@@ -38,8 +59,20 @@ header ul li a {
     color:#fff;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
+#registro {
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#links {
+    background-color: #000;
+}
 
 #inicio {
     
