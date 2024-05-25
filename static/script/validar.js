@@ -30,3 +30,4 @@ function validarFormulario(event) {
 
 // queda escuchando...
 form.addEventListener('submit', validarFormulario);
+

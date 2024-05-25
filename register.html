@@ -49,11 +49,18 @@
                     <label for="terms">Acepto los términos y condiciones</label>
                 </div>
                 <input type="submit" value="Enviar" class="submit-btn">
+                <button type="button" class="cancel-btn" id="cancelButton" onclick="redirectToIndex()">Cancelar</button>
+
             </form>
         </section>
     </main>
      <!-- Script para cargar la lista de países -->
      <script src="./static/script/paises.js"></script>
      <script src="./static/script/validar.js"></script>
+     <script>
+        function redirectToIndex() {
+            window.location.href = 'index.html';
+        }
+    </script>
 </body>
 </html>

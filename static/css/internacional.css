@@ -85,6 +85,24 @@ body {
     grid-area: footer;
 }
 
+.footer .home {
+     
+    width: 50px; 
+    height: 50px;
+}
+
+
+
+
+.sidebar img {
+    width: 100%; /* Ajusta la imagen al ancho del sidebar */
+    max-width: 100%; /* Garantiza que las imágenes no excedan el ancho del sidebar */
+    margin-bottom: 10px; /* Espacio entre cada imagen */
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .contenedor {
         grid-template-areas: 
@@ -96,11 +114,7 @@ body {
     }
 }
 
-.sidebar img {
-    width: 100%; /* Ajusta la imagen al ancho del sidebar */
-    max-width: 100%; /* Garantiza que las imágenes no excedan el ancho del sidebar */
-    margin-bottom: 10px; /* Espacio entre cada imagen */
-}
+
 
 /* para tables*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
