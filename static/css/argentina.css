@@ -101,3 +101,23 @@ body {
     max-width: 100%; /* Garantiza que las imágenes no excedan el ancho del sidebar */
     margin-bottom: 10px; /* Espacio entre cada imagen */
 }
+
+/* para tables*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    h2{
+        font-size: 4vw;
+    }
+
+}
+
+/* para celulares */
+@media screen and (max-width:767px){
+    h2{
+        font-size: 3vw;
+    }
+
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
