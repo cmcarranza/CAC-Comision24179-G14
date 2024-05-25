@@ -24,7 +24,7 @@ function validarFormulario(event) {
     }
 
     // Si todos los campos están completos, manda cartel de exito y vuelve a index
-    alert(nombre + ", se ha registrado satisfactoriamente.");
+    alert(nombre + ", te has registrado satisfactoriamente.");
     window.location.href = 'index.html';
 }
 
